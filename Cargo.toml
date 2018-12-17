@@ -1,5 +1,6 @@
 [package]
 authors = ["James Howard <jrobhoward@gmail.com>"]
+description = "A fast content defined chunker for u8 slices."
 edition = "2018"
 license = "MIT/Apache-2.0"
 name = "quickcdc"
