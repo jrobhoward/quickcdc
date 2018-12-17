@@ -1,0 +1,26 @@
+[package]
+authors = ["James Howard <jrobhoward@gmail.com>"]
+edition = "2018"
+license = "MIT/Apache-2.0"
+name = "quickcdc"
+version = "1.0.0"
+
+[dependencies]
+rand = "0.6.1"
+
+[dev-dependencies]
+memmap = "0.7.0"
+quickcheck = "0.7.2"
+time = "0.1.41"
+walkdir = "2.2.7"
+
+[profile.release]
+codegen-units = 1
+debug = true
+debug-assertions = false
+incremental = false
+lto = true
+opt-level = 3
+panic = 'abort'
+rpath = false
+overflow-checks = true
