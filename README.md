@@ -28,3 +28,6 @@ for x in chunker {
     println!("{}", x.len());
 }
 ```
+
+## License
+quickcdc is dual licensed under the MIT and Apache 2.0 licenses, the same licenses as the Rust compiler.
