@@ -1,4 +1,7 @@
 # quickcdc
+
+> **⚠️ DEPRECATED**: This project is no longer maintained. Please use [fastcdc-rs](https://github.com/nlfiedler/fastcdc-rs) instead, which looks well-maintained and provides a better implementation. Available on [crates.io](https://crates.io/crates/fastcdc).
+
 ## Summary
 `quickcdc` is a fast content defined chunker for `&[u8]` slices.
 * For some background information, see [AE: An Asymmetric Extremum Content Defined Chunking Algorithm](https://ieeexplore.ieee.org/document/7218510) by Yucheng Zhang.

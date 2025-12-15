@@ -1,10 +1,15 @@
 [package]
 authors = ["James Howard <jrobhoward@gmail.com>"]
-description = "A fast content defined chunker for u8 slices."
+description = "[DEPRECATED - use fastcdc instead] A fast content defined chunker for u8 slices."
 edition = "2018"
 license = "MIT/Apache-2.0"
 name = "quickcdc"
-version = "1.0.0"
+version = "1.0.1"
+readme = "README.md"
+repository = "https://github.com/jrobhoward/quickcdc"
+
+[badges]
+maintenance = { status = "deprecated" }
 
 [dependencies]
 rand = "0.6.1"
